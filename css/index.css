@@ -1,0 +1,113 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+
+
+.header {
+  background-color: #fff;
+  padding: 30px;
+  height: 120px;
+
+}
+
+.header h2{
+  float: left;
+
+}
+
+.header p{
+  float: right;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+
+.header form{
+  float: right;
+  font-size: 30px;
+  padding-top: 30px;
+  margin-left: 0px;
+}
+
+
+body {
+  margin: 0;
+  font-size: 28px;
+}
+
+
+#navbar {
+  overflow: hidden;
+  background-color: red;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+   /* top: 3; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 5;
+    transition: height 2s;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+} 
+
+#right, #fbright, #instaright, #whatsright{
+  float:right;
+}
+
+
+#fbright:hover{
+  color:#3B5998;
+  background-color: black;
+}
+
+#instaright:hover{
+  color: #e95950;
+  background-color: black;
+}
+
+#whatsright:hover{
+  color:#4dc247;
+  background-color: black;
+}
+
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
